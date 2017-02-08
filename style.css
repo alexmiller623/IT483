@@ -1,5 +1,5 @@
 * {
-font-family:		sans-serif;
+font-family:		Arial;
 }
 
 #header {
@@ -17,6 +17,7 @@ display:				flex;
 #leftColumn {
 background:		#F0F8FF;
 border:				2px solid #DAE1E7;
+color:				darkblue;
 font-family:		Helvetica, sans-serif;
 float:					left;
 width:				250px;
@@ -28,6 +29,7 @@ padding:			0px 10px 10px 10px;
 #leftColumnFirstP {
 color:				#010282;
 font-size:			.75rem;
+padding:			2.75px;
 }
 #speechImage {
 width:				95%;
@@ -46,7 +48,7 @@ font-size:			1.5rem;
 font-weight:		bold;
 }
 #centerColumnFirstP {
-font-size:		20px;
+font-size:		1.25rem;
 }
 
 #centerList {
@@ -71,11 +73,12 @@ padding:			0px 10px;
 }
 
 #rightColumnFirstP {
-
+padding:			2.5px;
 }
 
 #rightColumnSecondP {
 font-style:			italic;
+padding:			2.5px;
 }
 #footer {
 background:		#DFDFDF;
